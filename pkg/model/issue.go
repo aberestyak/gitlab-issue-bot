@@ -3,7 +3,7 @@ package issue
 import (
 	"errors"
 
-	gitlabUserAPI "aberestyak/gitlab-issue-bot/internal/gitlabAPI"
+	gitlabUserAPI "github.com/aberestyak/gitlab-issue-bot/internal/gitlabAPI"
 	"github.com/xanzy/go-gitlab"
 )
 

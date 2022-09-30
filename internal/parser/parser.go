@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	issue "aberestyak/gitlab-issue-bot/pkg/model"
+	issue "github.com/aberestyak/gitlab-issue-bot/pkg/model"
 	log "github.com/sirupsen/logrus"
 )
 

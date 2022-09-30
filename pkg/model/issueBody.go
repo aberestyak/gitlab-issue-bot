@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	gitlabUserAPI "aberestyak/gitlab-issue-bot/internal/gitlabAPI"
-	utils "aberestyak/gitlab-issue-bot/utils"
+	gitlabUserAPI "github.com/aberestyak/gitlab-issue-bot/internal/gitlabAPI"
+	utils "github.com/aberestyak/gitlab-issue-bot/utils"
 	"github.com/xanzy/go-gitlab"
 )
 
