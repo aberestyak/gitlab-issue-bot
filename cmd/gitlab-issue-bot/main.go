@@ -8,10 +8,10 @@ import (
 
 	"encoding/json"
 
-	config "aberestyak/gitlab-issue-bot/internal/config"
-	parser "aberestyak/gitlab-issue-bot/internal/parser"
-	logger "aberestyak/gitlab-issue-bot/pkg/logger"
+	config "github.com/aberestyak/gitlab-issue-bot/internal/config"
 	"github.com/gin-gonic/gin"
+	parser "github.com/gitlab-issue-bot/internal/parser"
+	logger "github.com/gitlab-issue-bot/pkg/logger"
 	"github.com/xanzy/go-gitlab"
 	tb "gopkg.in/tucnak/telebot.v2"
 )
