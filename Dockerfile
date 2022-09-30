@@ -4,7 +4,9 @@ ARG IMAGE_TAG__ALPINE_GO=3.15
 FROM golang:${GOLANG_VERSION} as build
 WORKDIR /go/src/gitlab-issue-bot
 COPY go.mod go.sum ./
-RUN go mod download
+RUN go mod download \
+    && apk --no-cache upgrade \
+    && apk --no-cache add git
 COPY . .
 RUN go generate ./...
 ENV GOGCFLAGS= \
